@@ -12,7 +12,7 @@
 5. GraphQL uses a schema that defines what data can be queried and how it's structured.
 6. Request and Response:
 
-- Client sends a query describing the exact data needed.
+- The client sends a query describing the exact data needed.
 - Server responds with only that data.
 Example:
 Query (asking for user name and email):
@@ -40,6 +40,14 @@ Response:
 
 
 - REST: Multiple endpoints for different resources. Responses often contain unnecessary data.
-- GraphQL: Single endpoint. Client specifies what it needs in a query, and the server sends exactly that.
+- GraphQL: Single endpoint. The client specifies what it needs in a query, and the server sends exactly that.
 
+
+
+
+# AEM and GraphQL
+1. Install and set AEM cloud
+2. Make content fragment
+3. Use GraphQL to retrieve data from content fragment
+4. Use this tutorial (https://youtu.be/l9AIjvL_n8A?feature=shared)
 
